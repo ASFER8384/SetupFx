@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 2, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/user/Desktop/SetupFx/src/app/globals.css"],"sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');\r\n\r\n\r\nbody {\r\n  background: var(--background);\r\n  color: var(--foreground);\r\n  font-family: 'Poppins', sans-serif;\r\n  padding: 0;\r\n  margin: 0;\r\n}"],"names":[],"mappings":"AAGA","debugId":null}}]
+}
