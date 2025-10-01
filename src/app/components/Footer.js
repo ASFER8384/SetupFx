@@ -15,18 +15,18 @@ export default function Footer() {
         <div style={{ border: "0px solid white", width: "40%" }}>
           <div
             style={{
-              width: "60px",
-              height: "60px",
+              width: "180px",
+              height: "80px",
               // marginBottom: "15px",
             }}
           >
             <img
-              src="/assets/Logo.png" // make sure your logo is inside public folder
+              src="/assets/setupfxlogo.png" 
               alt="Logo"
               style={{
                 width: "100%",
                 height: "100%",
-                objectFit: "contain",
+                objectFit: "cover",
               }}
             />
           </div>
@@ -39,9 +39,8 @@ export default function Footer() {
               letterSpacing: "1px",
             }}
           >
-            At Golden Tower Auto Paints, we have proudly served the automotive
-            industry for over 25 years, delivering premium auto paints,
-            refinishing solutions, and unmatched customer service.
+            SetupFX boosts your broker with custom trading platforms, expert
+            design, and compelling content.
           </span>
         </div>
         <div
@@ -54,8 +53,8 @@ export default function Footer() {
         >
           <div
             style={{
-              //   border: "1px solid white",
-              width: "80%",
+              // border: "1px solid white",
+              width: "100%",
               display: "flex",
               justifyContent: "space-between",
               height: "90%",
@@ -93,7 +92,7 @@ export default function Footer() {
                 <span
                   style={{
                     color: "white",
-                    fontSize: "12px",
+                    fontSize: "13px",
                     letterSpacing: ".5px",
                   }}
                 >
@@ -102,7 +101,7 @@ export default function Footer() {
                 <span
                   style={{
                     color: "white",
-                    fontSize: "12px",
+                    fontSize: "13px",
                     letterSpacing: ".5px",
                   }}
                 >
@@ -111,29 +110,29 @@ export default function Footer() {
                 <span
                   style={{
                     color: "white",
-                    fontSize: "12px",
+                    fontSize: "13px",
                     letterSpacing: ".5px",
                   }}
                 >
-                  Services
+                  Brokerage
                 </span>
                 <span
                   style={{
                     color: "white",
-                    fontSize: "12px",
+                    fontSize: "13px",
                     letterSpacing: ".5px",
                   }}
                 >
-                  Product
+                  Licensing
                 </span>
                 <span
                   style={{
                     color: "white",
-                    fontSize: "12px",
+                    fontSize: "13px",
                     letterSpacing: ".5px",
                   }}
                 >
-                  FAQ
+                  Marketing
                 </span>
               </div>
             </div>
@@ -156,7 +155,7 @@ export default function Footer() {
                   letterSpacing: ".5px",
                 }}
               >
-                Service Links
+                Product Links
               </span>
               <div
                 style={{
@@ -169,43 +168,43 @@ export default function Footer() {
                 <span
                   style={{
                     color: "white",
-                    fontSize: "12px",
+                    fontSize: "13px",
                     letterSpacing: ".5px",
                   }}
                 >
-                  Painting
+                  Forex Brokerage Setup
                 </span>
                 <span
                   style={{
                     color: "white",
-                    fontSize: "12px",
+                    fontSize: "13px",
                     letterSpacing: ".5px",
                   }}
                 >
-                  Refinishing
+                  Licensing & Compliance
                 </span>
                 <span
                   style={{
                     color: "white",
-                    fontSize: "12px",
+                    fontSize: "13px",
                     letterSpacing: ".5px",
                   }}
                 >
-                  Workshops
+                  CRM & Tech Solutions
                 </span>
                 <span
                   style={{
                     color: "white",
-                    fontSize: "12px",
+                    fontSize: "13px",
                     letterSpacing: ".5px",
                   }}
                 >
-                  Innovation
+                  Marketing for Forex Brokers
                 </span>
                 <span
                   style={{
                     color: "white",
-                    fontSize: "12px",
+                    fontSize: "13px",
                     letterSpacing: ".5px",
                   }}
                 >
@@ -215,7 +214,7 @@ export default function Footer() {
             </div>
             <div
               style={{
-                width: "fit-content",
+                width: "40%",
                 border: "0px solid white",
                 display: "flex",
                 flexDirection: "column",
@@ -232,11 +231,11 @@ export default function Footer() {
                   letterSpacing: ".5px",
                 }}
               >
-                Social Links
+                Office Location
               </span>
               <div
                 style={{
-                  height: "50%",
+                  height: "40%",
                   display: "flex",
                   justifyContent: "space-between",
                   flexDirection: "column",
@@ -245,38 +244,20 @@ export default function Footer() {
                 <span
                   style={{
                     color: "white",
-                    fontSize: "12px",
+                    fontSize: "13px",
                     letterSpacing: ".5px",
                   }}
                 >
-                  Linkdin
+                  44 Convention Tower, World Trade Center, Dubai
                 </span>
                 <span
                   style={{
                     color: "white",
-                    fontSize: "12px",
+                    fontSize: "13px",
                     letterSpacing: ".5px",
                   }}
                 >
-                  Email
-                </span>
-                <span
-                  style={{
-                    color: "white",
-                    fontSize: "12px",
-                    letterSpacing: ".5px",
-                  }}
-                >
-                  Whatsapp
-                </span>
-                <span
-                  style={{
-                    color: "white",
-                    fontSize: "12px",
-                    letterSpacing: ".5px",
-                  }}
-                >
-                  Phone
+                  651 N Broad St #206 Middletown, DE 19709, USA
                 </span>
               </div>
             </div>
@@ -287,14 +268,15 @@ export default function Footer() {
         style={{
           display: "flex",
           background: "black",
-          padding: "40px",
+          padding: "20px",
           justifyContent: "space-between",
+          // border:"1px solid white"
         }}
       >
         <span
           style={{ color: "white", fontSize: "12px", letterSpacing: "2px" }}
         >
-          Copy rights reserved by golden auto mobile
+          Copy rights reserved by Setup FX
         </span>
         <span
           style={{ color: "white", fontSize: "12px", letterSpacing: "2px" }}

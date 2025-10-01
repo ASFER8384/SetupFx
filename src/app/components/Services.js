@@ -5,30 +5,35 @@ export default function Services() {
   const packages = [
     {
       id: 1,
-      title: "Basic",
+      title: "Cost-Effectiveness",
       description:
-        "Simple plan designed to cover essential needs for six months.",
-      image: "/assets/Basic.png",
+        "Affordable solutions to help you reduce costs and improve.",
+      image: "/assets/costeffective.png",
     },
     {
       id: 2,
-      title: "Platinum",
-      description: "Premium package crafted to provide a full value & support.",
-      image: "/assets/Platinum.png",
+      title: "One-Stop Solution",
+      description: "Comprehensive services to set up your broker seamlessly.",
+      image: "/assets/onsStop.png",
     },
     {
       id: 3,
-      title: "Standard",
-      description:
-        "Balanced option created to offer reliable cover at fair cost.",
-      image: "/assets/Standard.png",
+      title: "Industry Expertise",
+      description: "Deep knowledge in broker operations and regulations.",
+      image: "/assets/thumbsup.png",
+    },
+    {
+      id: 4,
+      title: "Scalability",
+      description: "Flexible platforms designed to grow with your business.",
+      image: "/assets/scaleup.png",
     },
   ];
 
   return (
     <div
       style={{
-        minHeight: "70vh",
+        minHeight: "100vh",
         background: "black",
         display: "flex",
         // justifyContent: "center",
@@ -51,15 +56,15 @@ export default function Services() {
         <span
           style={{
             color: "rgba(213, 162, 53, 1)",
-            fontSize: "30px",
+            fontSize: "40px",
             textAlign: "center",
             letterSpacing: "2px",
           }}
         >
-          Extend and upgrade your cover for less than <br></br>Đ 1 per day!
+          Customize Your Broker Platform For<br></br> Maximum Impact!
         </span>
       </div>
-      <div style={{ width: "70%", height: "300px", border: "0px solid white" }}>
+      <div style={{ width: "95%", height: "300px", border: "0px solid white" }}>
         {/* <div
           style={{ border: "1px solid white", width: "250px", height: "250px" }}
         >
@@ -70,8 +75,8 @@ export default function Services() {
             <div
               key={index}
               style={{
-                width: "250px",
-                height: "250px",
+                width: "280px",
+                height: "300px",
                 border: "1px solid white",
                 background: "rgba(255, 255, 255, 0.1)",
                 borderRadius: "16px",

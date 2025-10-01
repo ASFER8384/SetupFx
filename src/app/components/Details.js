@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import Button from "./Button";
 
 export default function Details() {
   return (
@@ -14,17 +15,15 @@ export default function Details() {
         color: "white",
       }}
     >
-      {/* Left Side - Image */}
       <div style={{ width: "50%", position: "relative", height: "400px" }}>
         <Image
-          src="/assets/Details.png" // put your image in public/assets/
+          src="/assets/aboutUs.png" // put your image in public/assets/
           alt="Car"
           fill
           style={{ objectFit: "cover", borderRadius: "12px" }}
         />
       </div>
 
-      {/* Right Side - Content */}
       <div
         style={{
           width: "45%",
@@ -35,34 +34,21 @@ export default function Details() {
       >
         <h2
           style={{
-            fontSize: "32px",
+            fontSize: "40px",
             margin: 0,
             color: "rgba(213, 162, 53, 1)",
           }}
         >
-          Future of the Auto Paint Industry with Human + AI
+          Discover Who We Are
         </h2>
-        <p style={{ fontSize: "18px", lineHeight: "1.6" }}>
-          The automotive world is evolving at lightning speed, where human
-          expertise meets artificial intelligence to redefine driving, safety,
-          and vehicle management. Smart technologies are enhancing efficiency,
-          personalization, and sustainability, making cars more intuitive and
-          roads safer. 
+        <p style={{ fontSize: "18px" }}>
+          SetupFX specializes in creating cutting-edge trading platforms and
+          setting up broker firms from the ground up. Our team of industry
+          experts is dedicated to transparency, integrity, and excellence. From
+          humble beginnings to a leading industry player, we continue to drive
+          innovation and empower our clients to succeed.
         </p>
-        <button
-          style={{
-            padding: "12px 24px",
-            background: "rgba(213, 162, 53, 0.3)",
-            border: "none",
-            borderRadius: "20px",
-            color: "white",
-            fontWeight: "bold",
-            cursor: "pointer",
-            width: "fit-content",
-          }}
-        >
-          Learn More
-        </button>
+        <Button content="Lets Connect" top="0px" />
       </div>
     </div>
   );
